@@ -1,13 +1,9 @@
-<p align="center">
-  <img src="https://content.luca-kiebel.de/websites/nibyou.de/img/NIBYOU%20logo%20and%20claim%20-%20digital%20-%20big.png" alt="Nibyou Logo">
-</p>
-
-# Nibyou Microservice
+# SSC Partysystem Backend
 
 ## Installation
 
 ```bash
-$ npm install
+$ yarn
 ```
 
 ## Configuration
@@ -20,26 +16,13 @@ Fill out the variables and rename the file to `.env`.
 
 ```bash
 # development
-$ npm run start
+$ yarn start
 
 # watch mode
-$ npm run start:dev
+$ yarn start:dev
 
 # production mode
-$ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+$ yarn start:prod
 ```
 
 ## License
